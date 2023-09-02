@@ -1,30 +1,16 @@
-# vscode-terminal-api-example
+# extension-terminal-sample
 
-This sample provides several commands that demonstrates how to utilize the integrated terminal extension API. Access the commands through the command palette (F1).
-
-![demo](demo.png)
+This extension shows how to leverage the extension terminal API stabilized in v1.39 that enables an extension to handle a terminal's input and emit output.
 
 ## VS Code API
 
 ### `vscode` module
 
 - [window.createTerminal](https://code.visualstudio.com/api/references/vscode-api#window.createTerminal)
-- [window.onDidChangeActiveTerminal](https://code.visualstudio.com/api/references/vscode-api#window.onDidChangeActiveTerminal)
-- [window.onDidCloseTerminal](https://code.visualstudio.com/api/references/vscode-api#window.onDidCloseTerminal)
-- [window.onDidOpenTerminal](https://code.visualstudio.com/api/references/vscode-api#window.onDidOpenTerminal)
-- [window.Terminal](https://code.visualstudio.com/api/references/vscode-api#window.Terminal)
-- [window.terminals](https://code.visualstudio.com/api/references/vscode-api#window.terminals) 
-
-### Proposed API
-
-- `window.createTerminalRenderer`
-- `window.TerminalRenderer`
-- `window.registerTerminalProfileProvider`
 
 ### Contribution Points
 
 - [`contributes.commands`](https://code.visualstudio.com/api/references/contribution-points#contributes.commands)
-- [`contributes.terminal`](https://code.visualstudio.com/updates/v1_57#_terminal-profile-contributions)
 
 ## Running the Sample
 
