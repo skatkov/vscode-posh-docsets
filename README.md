@@ -1,4 +1,4 @@
-# extension-terminal-sample
+# VS Code - POSH docsets extension
 
 This extension shows how to leverage the extension terminal API stabilized in v1.39 that enables an extension to handle a terminal's input and emit output.
 
