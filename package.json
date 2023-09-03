@@ -1,7 +1,7 @@
 {
 	"name": "vscode-posh-docsets",
 	"displayName": "vscode-posh-docsets",
-	"description": "Docsets for ruby developers via POSH TUI",
+	"description": "POSH TUI: Docsets for ruby developers",
 	"version": "0.0.1",
 	"publisher": "skatkov",
 	"private": true,
